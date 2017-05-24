@@ -7,7 +7,7 @@ getCurrentWorkingDirectory
 	temp2 := self.
 	temp2 asString = 'a Win32Environment'
 	ifTrue: [ temp1 := (self getPwdViaFFIWindows: buffer)].
-	temp2 asString = 'a UnixEnvironment'
+	temp2 asString = 'an UnixEnvironment'
 	ifTrue: [temp1 := (self getPwdViaFFI: buffer) ].
 	
 	 ^ temp1.
