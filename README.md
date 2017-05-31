@@ -14,4 +14,5 @@
 <p>To get the current working directory, do <code>OSEnvironment current getCurrentWorkingDirectory</code></p>
 <p>This will give the current working directory i.e where the current working image is located.&nbsp;</p>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>Please feel free to create an issue, if this isn`t working.</p>
