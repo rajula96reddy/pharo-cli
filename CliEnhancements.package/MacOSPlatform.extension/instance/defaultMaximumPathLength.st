@@ -1,5 +1,4 @@
 *CliEnhancements
 defaultMaximumPathLength
-	"This method defines the default maximum path length for the getPwdViaFFi:Size: and getCurrentWorkingDirectory implementation"
-	 PathLength := 4096.
-	^PathLength 
+		"This method returns the default maximum path length for the getCurrentWorkingDirectory implementation"
+	 ^4096
