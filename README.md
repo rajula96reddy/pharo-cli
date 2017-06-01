@@ -22,5 +22,6 @@
 <li> The function getcwd() and buffer size <ol> <li>https://www.gnu.org/software/libc/manual/html_node/Working-Directory.html</li>
 <li>https://msdn.microsoft.com/en-us/library/sf98bd4y.aspx</li></ol>
 <li>Problems with PATHMAX <ol> <li>http://insanecoding.blogspot.fr/2007/11/pathmax-simply-isnt.html </li></ol> </li>  
+</ol>
 <p>&nbsp;</p>
 <p>Feel free to create an issue, if this isn`t working.</p>
