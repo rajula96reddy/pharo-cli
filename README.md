@@ -16,11 +16,11 @@
 <p>To get the current working directory with a difinite buffer size, do <code>OSEnvironment current getCurrentWorkingDirectoryWithBufferSize: size</code></p>
 <p>This will give the current working directory with the size passed as buffer size for the method. If the buffer size is not sufficient or if it is less than the path size, the method returns 'nil'.  &nbsp;</p>
 <p>&nbsp;</p>
-<p>References used for this implementation </p>
+<p>References used for the implementation </p>
 <ol>
-<li>https://github.com/mikeizbicki/ucr-cs100/issues/1088 </li>
-<li>https://www.gnu.org/software/libc/manual/html_node/Working-Directory.html</li>
-<li>https://msdn.microsoft.com/en-us/library/sf98bd4y.aspx</li>
-<li>http://insanecoding.blogspot.fr/2007/11/pathmax-simply-isnt.html </li>  
+<li>Why getcwd() instead of environment variables <ol> <li> https://github.com/mikeizbicki/ucr-cs100/issues/1088</li> <li>https://vineetreddy.wordpress.com/2017/05/17/pwd-vs-getcwd/ </li></ol> </li>
+<li> The function getcwd() and buffer size <ol> <li>https://www.gnu.org/software/libc/manual/html_node/Working-Directory.html</li>
+<li>https://msdn.microsoft.com/en-us/library/sf98bd4y.aspx</li></ol>
+<li>Problems with PATHMAX <ol> <li>http://insanecoding.blogspot.fr/2007/11/pathmax-simply-isnt.html </li></ol> </li>  
 <p>&nbsp;</p>
-<p>Please feel free to create an issue, if this isn`t working.</p>
+<p>Feel free to create an issue, if this isn`t working.</p>
