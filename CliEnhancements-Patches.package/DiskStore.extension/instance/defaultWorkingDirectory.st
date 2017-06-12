@@ -1,3 +1,3 @@
 *CliEnhancements-Patches
 defaultWorkingDirectory
-	^self pathFromString: (OSPlatform current getCurrentWorkingDirectory)
+	^self pathFromString: (OSPlatform current currentWorkingDirectoryPath)
