@@ -1,4 +1,4 @@
-*CliEnhancements
+*CliEnhancements-Patches
 privSaveImageWithCleanup
 
 	"Do not use this method for common image saving. This method is designated for saving the image during the shrinking process in headless images."
