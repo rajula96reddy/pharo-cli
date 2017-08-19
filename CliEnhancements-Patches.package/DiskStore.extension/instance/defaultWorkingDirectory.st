@@ -1,3 +1,4 @@
 *CliEnhancements-Patches
 defaultWorkingDirectory
-	^self pathFromString: (OSPlatform current currentWorkingDirectoryPath)
+	^ DefaultWorkingDirectory
+	ifNil: [ self class defaultWorkingDirectory ]
