@@ -11,9 +11,9 @@
 </ol>
 <p>&nbsp;</p>
 <p>Usage:</p>
-<p>To get the current working directory, do <code>OSEnvironment current currentWorkingDirectoryPath</code></p>
+<p>To get the current working directory, do <code>OSPlatform current currentWorkingDirectoryPath</code></p>
 <p>This will give the current working directory i.e where the current working image is located. This is will take the default buffer size as set by the method <code> defaultMaximumPathLength </code> &nbsp;</p>
-<p>To get the current working directory with a difinite buffer size, do <code>OSEnvironment current currentWorkingDirectoryPathWithBufferSize: size</code></p>
+<p>To get the current working directory with a difinite buffer size, do <code>OSPlatform current currentWorkingDirectoryPathWithBufferSize: size</code></p>
 <p>This will give the current working directory with the size passed as buffer size for the method. If the buffer size is not sufficient or if it is less than the path size, the method returns 'nil'.  &nbsp;</p>
 <p>&nbsp;</p>
 <p>References used for the implementation </p>
